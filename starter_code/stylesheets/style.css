@@ -9,7 +9,7 @@ links blue: #2E71A6
 footer links grey:  #454245
 */
 body {
-    max-width: 767px;
+   
     font-size: 16px;
     background-color: #540b51;
     display: flex;
@@ -225,6 +225,7 @@ ul > li > p >span {
 
 #hq {
     background-color: #540b51;
+    margin-top: white;
 
 }
 #hq > h3 {
@@ -329,5 +330,53 @@ ul > li > p >span {
     margin-right: 100px;
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        max-width: 1023px;
+        
+    }
+     header > #div1 , #div2 {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+    }
 
+    #companies {
+        display: flex;
+        flex-direction: row;
+        padding: 10px 5px;
+    }
 
+    main > section > .left {
+       align-items: flex-start;
+    
+       max-height: 50%;
+    }
+
+    main > section > .right {
+        align-items: flex-end;
+       
+        max-height: 50%;
+    }
+
+    #rely >ul {
+        display: flex;
+        flex-direction: row;
+        font-weight: bolder;
+    }
+    #status {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    } 
+
+    div > small {
+        text-align: center;
+        padding: 10px;
+
+    }
+
+}
