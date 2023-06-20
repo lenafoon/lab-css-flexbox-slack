@@ -6,5 +6,328 @@ titles black: #191817
 paragraph black: #000000
 paragraph yellow: #ECB12F
 links blue: #2E71A6
-footer links grey: #454245
+footer links grey:  #454245
 */
+body {
+    max-width: 767px;
+    font-size: 16px;
+    background-color: #540b51;
+    display: flex;
+    flex-direction: column;
+  
+    
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: none;
+  }
+
+
+.logo {
+    padding-top: 30px;
+    height: 100px;
+    width: 100px;
+    align-items: flex-start;
+}
+
+#searchicon {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    border: none;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+header > div > h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+
+
+}
+
+header > div > p {
+    color: white;
+    text-align: center;
+}
+
+
+.free {
+    color: #ECB12F;
+    font-weight: bolder;
+}
+
+
+
+
+
+.email , .google {
+    border: none;
+    font-size: 1em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 95%;
+    height: 60px;
+    margin: 10px;
+  
+    
+}
+
+.email {
+    color: #540b51;
+    background-color: white;
+}
+
+.google {
+    background-color: #4285F4;
+    color: white;
+}
+
+.google > img {
+background-color: white;
+width: 35px;
+border-radius: 5%;
+margin-left: -85px;
+text-align: center;
+
+}
+
+#googlesign {
+    text-align: center;
+    padding-left: 80px;
+    padding-bottom: 40px;
+}
+
+
+
+main {
+    background-color: #F3EAE2;
+}
+
+#trust {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 30px;
+}
+
+#companies {
+  align-items: center;
+}
+#companies > img {
+    height: 40px;
+    padding: 15px;
+}
+
+div > h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: left;
+
+}
+main > section > div > p {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+
+a > span {
+    padding-left: 10px;
+    color: #2E71A6;
+    font-weight: bold;
+}
+
+#rely {
+    background-color: white;
+    text-align: center;
+}
+
+#rely > h3 {
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 2.5em;
+
+}
+
+section > h3 > p {
+    font-size: 2em;
+    font-weight: bold;
+    width: 90%;
+}
+
+#enterprise , #sales{
+  width: 90%;  
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+#enterprise , #talk {
+    background-color: #540b51;
+    color: white;
+    font-weight: bold;
+}
+
+#sales , #try{
+    background-color: white;
+    color: #540b51;
+    border-color: #540b51;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+ul {
+    width: 80%;
+    list-style: none;
+}
+ul > li > p >span {
+    font-size: 3em;
+    font-weight: bolder;
+    color: #540b51;
+}
+
+
+#hq {
+    background-color: #540b51;
+
+}
+#hq > h3 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+#try , #talk {
+    width: 90%;
+    border-radius: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+
+}
+
+#talk {
+    border-color: white;
+}
+
+
+#end {
+    background-color: white;
+    
+}
+
+#end > img {
+    width: 40px;
+    padding-top: 30px;
+    align-items: flex-start;
+}
+
+
+#end > div {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#end > div > ul > li {
+    margin-bottom: 10px;
+}
+#footer1 > :first-child {
+    font-weight: bolder;
+    padding-bottom: 30px;
+} 
+
+#footer2 > :first-child {
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+#footer3 > :first-child {
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+#footer4 > :first-child {
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+#footer1 :not(:first-child) {
+    color: #454245;
+}
+
+#footer2 :not(:first-child) {
+    color: #454245;
+}
+
+#footer3 :not(:first-child) {
+    color: #454245;
+}
+
+#footer4 :not(:first-child) {
+    color: #454245;
+}
+
+
+#status {
+    font-weight: bolder;
+}
+
+#status > li {
+    margin-bottom: 30px;
+}
+
+
+ #status :last-child {
+    color: #2E71A6;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#socials > li {
+    margin-right: 100px;
+}
+
+
+
